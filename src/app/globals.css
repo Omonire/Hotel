@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030303;
+  --foreground: #f4f4f6;
+
+  --color-gold-50: #fbf8f1;
+  --color-gold-100: #f4ebd8;
+  --color-gold-200: #e9d5b1;
+  --color-gold-300: #dab781;
+  --color-gold-400: #ca9855;
+  --color-gold-500: #bc7f3d;
+  --color-gold-600: #9e602e;
+  --color-gold-700: #7d4423;
+  --color-gold-800: #5d311d;
+  --color-gold-900: #412115;
+  --color-gold-950: #26110a;
+
+  --color-obsidian-950: #050507;
+  --color-obsidian-900: #0a0a0f;
+  --color-obsidian-800: #12121a;
+  --color-obsidian-700: #1b1b26;
+
+  --font-geist-sans: 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold-50: var(--color-gold-50);
+  --color-gold-100: var(--color-gold-100);
+  --color-gold-200: var(--color-gold-200);
+  --color-gold-300: var(--color-gold-300);
+  --color-gold-400: var(--color-gold-400);
+  --color-gold-500: var(--color-gold-500);
+  --color-gold-600: var(--color-gold-600);
+  --color-gold-700: var(--color-gold-700);
+  --color-gold-800: var(--color-gold-800);
+  --color-gold-900: var(--color-gold-900);
+  --color-gold-950: var(--color-gold-950);
+
+  --color-obsidian-950: var(--color-obsidian-950);
+  --color-obsidian-900: var(--color-obsidian-900);
+  --color-obsidian-800: var(--color-obsidian-800);
+  --color-obsidian-700: var(--color-obsidian-700);
+}
+
+html, body {
+  background-color: #030303;
+  color: #f4f4f6;
+  font-family: var(--font-geist-sans);
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+/* Custom Lenis Smooth Scroll Rules */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(10, 10, 15, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(218, 183, 129, 0.1);
+}
+
+.glass-panel-heavy {
+  background: rgba(5, 5, 7, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(218, 183, 129, 0.15);
+}
+
+.glow-ambient {
+  box-shadow: 0 0 50px -10px rgba(202, 152, 85, 0.15);
+}
+
+.glow-ambient-intense {
+  box-shadow: 0 0 80px -5px rgba(202, 152, 85, 0.3);
+}
+
+/* Text Mask Reveal animation */
+.text-mask-reveal {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Custom Webkit scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030303;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ca9855;
+}
