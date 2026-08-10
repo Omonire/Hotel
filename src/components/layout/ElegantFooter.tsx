@@ -36,7 +36,7 @@ export default function ElegantFooter() {
             <li><Link href="/" className="hover:text-white transition-colors">Orbit Center</Link></li>
             <li><Link href="/rooms" className="hover:text-white transition-colors">Chamber Registry</Link></li>
             <li><Link href="/#experiences" className="hover:text-white transition-colors">Astral Wellness</Link></li>
-            <li><Link href="/book" className="hover:text-white transition-colors">Direct Entry Protocol</Link></li>
+            <li><Link href="/book" className="hover:text-white transition-colors">Book Your Stay</Link></li>
           </ul>
         </div>
 

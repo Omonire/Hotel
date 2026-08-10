@@ -289,7 +289,7 @@ function BookingWizardContent() {
 
         {step === 3 && (
           <div className="flex flex-col gap-6 animate-in fade-in duration-300">
-            <h3 className="font-sans text-xl font-bold tracking-wide uppercase text-white">Establish Payment Uplink</h3>
+            <h3 className="font-display text-xl font-medium tracking-wide text-white">Establish Payment Uplink</h3>
 
             {/* Simulated Payment Methods */}
             <div className="grid grid-cols-2 gap-4">
@@ -317,12 +317,12 @@ function BookingWizardContent() {
               })}
             </div>
 
-            <div className="p-4 rounded-lg bg-gold-400/5 border border-gold-400/10 flex items-start gap-3 mt-4">
+            <div className="p-4 rounded-lg bg-gold-400/5 border border-gold-400/15 flex items-start gap-3 mt-4">
               <ShieldCheck className="w-4 h-4 text-gold-300 mt-0.5 shrink-0" />
-              <div className="flex flex-col gap-0.5">
-                <span className="font-sans text-[10px] font-bold text-gold-200">GUARANTEED DECENTRALIZED PROTOCOL</span>
-                <span className="font-sans text-[9px] text-white/50 leading-relaxed">
-                  Your entry is securely written to the local blockchain ledger. Security validated by Aetheris security standards.
+              <div className="flex flex-col gap-1">
+                <span className="font-sans text-[10px] font-bold text-gold-200">DEMO INTEGRATION & RESERVATION MODE</span>
+                <span className="font-sans text-[9px] text-white/60 leading-relaxed">
+                  Please note: This checkout system is currently running in a **securely simulated demonstration mode**. No real financial transaction or currency collection will be processed. All simulated reservations are dynamically registered to your active browser session memory.
                 </span>
               </div>
             </div>
@@ -459,11 +459,11 @@ export default function BookPage() {
               Direct Entry Protocol
             </span>
           </div>
-          <h1 className="font-sans text-4xl md:text-5xl font-black tracking-tight text-white uppercase mb-2">
-            SECURE A CITADEL CHAMBER
+          <h1 className="font-display text-4xl md:text-5xl font-medium tracking-tight text-white mb-2">
+            Secure a Citadel Chamber
           </h1>
-          <p className="max-w-xl text-xs text-white/50 leading-relaxed font-light">
-            Initialize an orbital entry protocol. All slots are cryptographic, fully integrated, and backed by adaptive AI wellness.
+          <p className="max-w-xl text-sm text-white/60 leading-relaxed font-light">
+            Initialize your premium reservation. All chambers are fully integrated with localized climate control, biometric wellness, and custom spatial design.
           </p>
         </div>
 

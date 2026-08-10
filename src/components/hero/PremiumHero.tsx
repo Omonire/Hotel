@@ -95,7 +95,7 @@ export default function PremiumHero() {
         <div className="overflow-hidden mb-1">
           <h1
             ref={titleLine1Ref}
-            className="font-sans text-5xl md:text-8xl font-black tracking-[-0.02em] leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/60"
+            className="font-display text-6xl md:text-8xl font-medium tracking-[0.05em] leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/70"
           >
             AETHERIS
           </h1>
@@ -104,7 +104,7 @@ export default function PremiumHero() {
         <div className="overflow-hidden mb-6">
           <h2
             ref={titleLine2Ref}
-            className="font-sans text-4xl md:text-7xl font-light tracking-[0.18em] leading-none text-gold-300 uppercase"
+            className="font-display text-4xl md:text-6xl font-light tracking-[0.25em] leading-none text-gold-300 uppercase"
           >
             CITADEL
           </h2>
@@ -112,9 +112,9 @@ export default function PremiumHero() {
 
         <p
           ref={subtitleRef}
-          className="max-w-xl text-sm md:text-base text-white/50 tracking-wide font-sans leading-relaxed mb-10"
+          className="max-w-xl text-sm md:text-base text-white/70 tracking-wide font-sans leading-relaxed mb-12"
         >
-          A masterpiece of multiversal architecture suspended in the high atmosphere. Explore our bespoke anti-gravity sanctuaries, intelligent AI butler services, and unparalleled deep cosmic tranquility.
+          A masterpiece of architectural design suspended in the high atmosphere. Experience bespoke private sanctuaries, personalized butler services, and unparalleled deep cosmic tranquility.
         </p>
 
         {/* Core CTA */}
@@ -124,13 +124,13 @@ export default function PremiumHero() {
             className="px-8 py-3.5 rounded-full border border-gold-300 hover:border-gold-100 bg-transparent text-gold-300 hover:text-gold-100 font-sans text-xs tracking-[0.2em] font-bold uppercase transition-all duration-300 flex items-center gap-2 group"
           >
             <Compass className="w-4 h-4 group-hover:rotate-45 transition-transform" />
-            Explore Chambers
+            EXPLORE CHAMBERS
           </Link>
           <Link
             href="/book"
-            className="px-8 py-3.5 rounded-full bg-gold-300 hover:bg-gold-200 text-black font-sans text-xs tracking-[0.2em] font-bold uppercase transition-all duration-300 shadow-[0_0_30px_rgba(202,152,85,0.3)] hover:shadow-[0_0_40px_rgba(202,152,85,0.5)]"
+            className="px-8 py-3.5 rounded-full bg-gold-300 hover:bg-gold-200 text-black font-sans text-xs tracking-[0.2em] font-bold uppercase transition-all duration-300 shadow-[0_0_30px_rgba(202,152,85,0.3)] hover:shadow-[0_0_40px_rgba(202,152,85,0.5)] animate-pulse"
           >
-            Direct Entry Protocol
+            BOOK YOUR STAY
           </Link>
         </div>
       </div>

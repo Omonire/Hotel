@@ -46,7 +46,7 @@ const defaultRoomTypes: RoomType[] = [
     id: 'rt2',
     name: 'Chronos Temporal Penthouse',
     code: 'CHR-PENT',
-    description: 'The pinnacle of futuristic luxury. Includes a localized chronostatic chamber to experience deep, extended rest, and an private outdoor bio-dome. The absolute premium suite for dignitaries.',
+    description: 'The pinnacle of futuristic luxury. Includes a localized chronostatic chamber to experience deep, extended rest, and a private outdoor bio-dome. The absolute premium suite for dignitaries.',
     base_price: 3400,
     max_capacity: 4,
     bed_type: 'Double Super-Position Queen',

@@ -40,20 +40,20 @@ export default function RoomCard({ roomType }: RoomCardProps) {
 
       {/* Content Details */}
       <div className="flex flex-col flex-1 p-6">
-        <div className="flex items-start justify-between gap-2 mb-2">
-          <h3 className="font-sans text-lg font-bold tracking-wide text-white group-hover:text-gold-300 transition-colors duration-300">
+        <div className="flex items-start justify-between gap-2 mb-4">
+          <h3 className="font-display text-lg font-medium tracking-wide text-white group-hover:text-gold-300 transition-colors duration-300 leading-snug">
             {roomType.name}
           </h3>
-          <div className="flex flex-col items-end">
-            <span className="font-mono text-[9px] text-white/30 tracking-widest uppercase">From</span>
-            <span className="font-sans text-xl font-black text-gold-300 tracking-tight">
+          <div className="flex flex-col items-end shrink-0">
+            <span className="font-mono text-[8px] text-white/40 tracking-widest uppercase">From</span>
+            <span className="font-sans text-lg font-bold text-gold-300 tracking-tight">
               Ω{roomType.base_price}
             </span>
             <span className="font-mono text-[8px] text-white/30 tracking-wider">/ night</span>
           </div>
         </div>
 
-        <p className="text-xs text-white/50 leading-relaxed font-light mb-5 line-clamp-2">
+        <p className="text-xs text-white/60 leading-relaxed font-light mb-6 line-clamp-2">
           {roomType.description}
         </p>
 
@@ -62,7 +62,7 @@ export default function RoomCard({ roomType }: RoomCardProps) {
           <div className="flex items-center gap-2">
             <Users className="w-3.5 h-3.5 text-gold-400/60" />
             <span className="font-sans text-[10px] text-white/60">
-              Capacity: {roomType.max_capacity} Guests
+              {roomType.max_capacity} Guests
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -77,16 +77,16 @@ export default function RoomCard({ roomType }: RoomCardProps) {
         <div className="mt-auto flex items-center gap-3 pt-4 border-t border-white/5">
           <Link
             href={`/rooms/${roomType.id}`}
-            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-4 rounded bg-white/[0.04] hover:bg-white/[0.08] border border-white/5 hover:border-white/10 text-white/80 hover:text-white transition-all text-[11px] tracking-wider uppercase font-semibold"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-4 rounded bg-white/[0.03] hover:bg-white/[0.07] border border-white/5 hover:border-white/10 text-white/80 hover:text-white transition-all text-[11px] tracking-wider uppercase font-semibold"
           >
             <Eye className="w-3.5 h-3.5" />
-            Specs
+            INSPECT
           </Link>
           <Link
             href={`/book?roomType=${roomType.id}`}
             className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-4 rounded bg-gold-400 hover:bg-gold-300 text-black font-semibold text-[11px] tracking-wider uppercase transition-all duration-300"
           >
-            Direct Reserv
+            RESERVE
           </Link>
         </div>
       </div>
