@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Compass, CalendarRange, Shield, Menu, X, Landmark } from 'lucide-react';
+import { CalendarRange, Shield, Menu, X, Landmark } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 export default function HeaderNavbar() {
