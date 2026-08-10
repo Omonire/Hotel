@@ -87,7 +87,7 @@ export default function RoomDetailPage() {
                 </span>
               </div>
 
-              <h1 className="font-sans text-3xl md:text-5xl font-black text-white tracking-tight uppercase mb-4 leading-none">
+              <h1 className="font-display text-4xl md:text-5xl font-medium text-white tracking-tight mb-4 leading-tight">
                 {roomType.name}
               </h1>
 

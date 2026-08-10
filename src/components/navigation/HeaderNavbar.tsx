@@ -85,7 +85,7 @@ export default function HeaderNavbar() {
           >
             <span className="relative z-10 flex items-center gap-1.5">
               <CalendarRange className="w-3.5 h-3.5" />
-              Direct Entry
+              BOOK YOUR STAY
             </span>
           </Link>
         </div>
@@ -127,7 +127,7 @@ export default function HeaderNavbar() {
               onClick={() => setMobileOpen(false)}
               className="w-full text-center py-3 rounded-full bg-gold-400 hover:bg-gold-300 text-black font-sans text-xs font-bold tracking-[0.2em] uppercase transition-all"
             >
-              Reserve a Chamber
+              BOOK YOUR STAY
             </Link>
           </div>
         </div>

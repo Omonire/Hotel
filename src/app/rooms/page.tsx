@@ -33,11 +33,11 @@ export default function RoomsPage() {
               Chamber Registry
             </span>
           </div>
-          <h1 className="font-sans text-4xl md:text-6xl font-black tracking-tight text-white uppercase mb-4">
-            OUR SACRED SANCTUARIES
+          <h1 className="font-display text-4xl md:text-5xl font-medium tracking-tight text-white mb-4">
+            Our Sacred Sanctuaries
           </h1>
-          <p className="max-w-xl text-sm text-white/50 leading-relaxed font-light">
-            Bespoke futuristic architectural environments designed for unmatched cosmic luxury and deep quantum relaxation. Filter and select your ideal orbital habitat.
+          <p className="max-w-xl text-sm text-white/60 leading-relaxed font-light">
+            Bespoke high-atmosphere architectural retreats designed for ultimate tranquility and deep rejuvenation. Select your ideal orbital sanctuary below.
           </p>
         </div>
 

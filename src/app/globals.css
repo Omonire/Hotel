@@ -20,8 +20,6 @@
   --color-obsidian-900: #0a0a0f;
   --color-obsidian-800: #12121a;
   --color-obsidian-700: #1b1b26;
-
-  --font-geist-sans: 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 @theme inline {
@@ -43,12 +41,16 @@
   --color-obsidian-900: var(--color-obsidian-900);
   --color-obsidian-800: var(--color-obsidian-800);
   --color-obsidian-700: var(--color-obsidian-700);
+
+  --font-display: var(--font-serif-display), serif;
+  --font-sans: var(--font-sans-ui), sans-serif;
+  --font-mono: var(--font-mono-tech), monospace;
 }
 
 html, body {
   background-color: #030303;
   color: #f4f4f6;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-sans-ui), sans-serif;
   scroll-behavior: auto;
   overflow-x: hidden;
 }
